@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<title>Rec Rooms</title>
+		<link href="assets/css/styles.css" media="all" rel="stylesheet" />
+    	<link rel="shortcut icon" href="" />
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	</head>
+
+
+    <style>
+
+    body {
+    	margin: 0;
+    	padding: 0;
+    }
+
+    #wrapper {
+    	position: absolute;
+    	max-width: 2000px;
+    height: 100px;
+    overflow: scroll;
+    white-space: nowrap;
+    }
+
+    .panels {
+    	position: relative;
+    	height: 100%;
+    	min-height: 100%;
+    	width: 100%;
+    	z-index: 100%;
+    }
+
+    .room1 {
+    	position: fixed;
+    	height: 1000px;
+    	width: 1240px;
+    	background-image: url("assets/img/room1.jpg");
+    	background-size: 1040px 700px;
+    	background-repeat: no-repeat;
+    	margin: 0;
+    	z-index: 99%;
+     }
+
+     .r1button {
+     	position: absolute;
+     	bottom: 0px;
+     	left: 80px;
+     	font-family:'Open Sans', sans-serif;
+     	color: white;
+     }
+
+     .title {
+     	position: fixed;
+     	margin-left: 900px;
+     	margin-top: 100px;
+     	-webkit-transform: rotate(90deg);
+     	font-family:'Open Sans', sans-serif;
+     	font-weight: bolder;
+     	font-size: 80px;
+     	line-height: 80%;
+     }
+
+     .room2 {
+     	margin-top: 100%;
+     	height: 1000px;
+    	width: 1240px;
+    	background-image: url("assets/img/room2.jpg");
+    	background-size: 1040px 700px;
+    	background-repeat: no-repeat;
+
+     }
+
+     .room3 {
+     	height: 1000px;
+    	width: 1240px;
+    	background-image: url("assets/img/room3.jpg");
+    	background-size: 1040px 740px;
+    	background-repeat: no-repeat;
+     }
+   
+
+    </style>
+
+	<body>
+	
+	<div id="wrapper">
+		<div class="panels title">LEONARD ST.<br>REC ROOMS</div>
+		<div class="panels room1">
+			<div class="panels r1button">ROOM 1</div>
+		</div>
+		<div class="panels room2"></div>
+		<div class="panels room3"></div>
+	</div>
+
+	<script src="assets/js/app.js"></script>
+		
+	</body>
+
+</html>
