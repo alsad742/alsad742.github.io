@@ -1,0 +1,444 @@
+    
+    body,html {
+    	margin: 0;
+    	padding: 0;
+        height: 100%;
+    	width: 100%;
+        background-color: black;
+    }
+
+      .title {
+        position: fixed;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-family:'Open Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+        line-height: 80%;
+        padding: 5px;
+        color: white;
+        cursor:pointer;
+        z-index: 100;
+     }
+
+    .hidden {
+        opacity: 0;
+        margin-left: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .hoverable:hover .hidden {
+        opacity: 1;
+    }
+   
+
+    .room1 {
+    	height: 100%;
+    	width: 100%;
+    	background-image: url("../img/room1.jpg");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	margin-bottom: 0;
+   	    position: relative;
+     }
+
+
+    .button {
+     	position: absolute;
+     	bottom: 20px;
+     	left: 20px;
+     	font-family:'Open Sans', sans-serif;
+     	font-size: 30px;
+        font-weight: lighter;
+        color: white;
+        border: solid white 2px; 
+        padding: 10px 10px 10px 10px;
+        cursor: pointer;
+
+     }
+
+     .next {
+        size: 100px;
+        position: fixed;
+        font-family:'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: white;
+        cursor: pointer;
+     }
+
+     .next1 {
+        font-size: 80px;
+        bottom:200px;
+        left: 10px;
+     }
+
+     .next2 {
+        font-size: 80px;
+       bottom: 200px;
+       right: 10px;
+     }
+
+
+     .hover2, .hover3 {
+        opacity: 0;
+        font-family:'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: white;
+        cursor: pointer;
+        transition: opacity 0.5s ease;
+
+     }
+
+
+     .next2:hover .hover2 {
+        display: block;
+        opacity: 1;
+     }
+    
+     .next1:hover .hover3 {
+        display: block;
+        opacity: 1;
+     }
+
+     .details {
+        font-family:'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        width: 250px;
+        color: white;
+        line-height: 150%;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        margin-top: 20px;
+
+     }
+
+
+     a:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+
+
+     .room2 {
+     	height: 100%;
+    	width: 100%;
+    	background-image: url("../img/room2.jpg");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	margin-top: 0;
+        position: relative;
+    
+     }
+
+
+     .room3 {
+     	height: 100%;
+    	width: 100%;
+    	background-image: url("../img/room3.jpg");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+        position: relative;
+
+     }
+
+     #wrapper {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .panels {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        z-index: 99%;
+    }
+
+
+
+     .img2 .r2img5 {
+        height: 100%;
+        width: 100%;
+
+     }
+
+     .img2 {
+        position: fixed;
+        background-image: url("../img/r2img2.");
+        background-repeat: no-repeat;
+        z-index: 99%;
+        left: 250px;
+        cursor: pointer;
+     }
+
+    .r2img5 {
+        position: fixed;
+        background-image: url("../img/r2img25.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 99%;
+     }
+
+
+    .img1, .r2img3, .r2img6 .r2img7 .r2img8 {
+        height: 100%;
+        width: 100%;    
+     }
+
+     .img1 {
+        background-image: url("../img/r1img1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        margin-bottom: 300px;
+     }
+
+     .r1img1, .r1img2, .r1img3, .r1img4, .r1img5, .r1img6 {
+         background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: 0% 40%;
+     }
+
+
+     .r1img1 {
+        background-image: url("../img/r1img1.jpg");
+     }
+
+     .r1img1x {
+        background-image: url("../img/r1img1x.jpg");
+        background-repeat: no-repeat;
+        background-position: 0% 40%;
+        background-size: 1000px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+     }
+
+      .r1img2x {
+        background-image: url("../img/r1img2x.jpg");
+        background-repeat: no-repeat;
+        background-size: 1000px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+
+     }
+
+     .r1img2 {
+        background-image: url("../img/r1img2.jpg");
+        margin-top: -400px;
+     }
+
+     .r1img3 {
+        background-image: url("../img/r1img3.jpg");
+        background-position: 0% 30%;
+        margin-top: -400px;
+     }
+
+        .r1img3x {
+        background-image: url("../img/r1img3x.jpg");
+        background-repeat: no-repeat;
+        background-size: 1000px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+
+     }
+
+     .r1img4 {
+        background-image: url("../img/r1img4.jpg");
+        background-position: 0% 70%;
+        margin-top: -400px;
+     }
+
+     .r1img4x {
+        background-image: url("../img/r1img4x.jpg");
+        background-repeat: no-repeat;
+        background-size: 1000px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+     }
+
+     .r1img5 {
+        background-image: url("../img/r1img5.jpg");
+        background-position: 0% 80%;
+        margin-top: -400px;
+     }
+
+      .r1img5x {
+        background-image: url("../img/r1img5x.jpg");
+        background-repeat: no-repeat;
+        background-size: 800px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+     }
+
+      .r1img6 {
+        background-image: url("../img/r1img6.jpg");
+        margin-top: -400px;
+     }
+
+
+     .r2img3, .r2img6, .r2img7, .r2img8, .r2img4 {
+        background-repeat: no-repeat;
+        background-size: cover; 
+     }
+
+
+     .r2img3 {
+        background-image: url("../img/r2img3.jpg");
+     }
+
+     .r2img3x {
+        background-image: url("../img/r2img2.jpg");
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+        background-size: 1000px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+     }
+
+     .r2img6 {
+        background-image: url("../img/r2img6.jpg");
+        margin-top: -400px;
+     }
+
+     .r2img7 {
+        background-image: url("../img/r2img7.jpg");
+        background-position: 0% 40%;
+        margin-top: -400px;
+     }
+
+
+    .r2img8 {
+        background-image: url("../img/r2img8.jpg");
+        background-position: 0% 40%;
+        margin-top: -400px; 
+            
+    }
+
+      .r2img8x {
+        background-image: url("../img/r2img8x.jpg");
+        background-repeat: no-repeat;
+        background-size: 1000px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+     }
+
+
+     .r1button {
+        position: absolute;
+        bottom: 0px;
+        left: 80px;
+        font-family:'Open Sans', sans-serif;
+        color: white;
+     }
+
+
+     .r2img4 {
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+     }
+
+
+     .r2img4 {
+        background-image: url("../img/r2img4.jpg");
+        background-position: 0% 30%;
+        margin-top: -400px;
+     }
+
+     .r2img4x {
+        background-image: url("../img/r2img5.jpg");
+        background-repeat: no-repeat;
+        background-size: 1000px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+
+     }
+
+
+       .r2img7x {
+        background-image: url("../img/r2img7x.jpg");
+        background-repeat: no-repeat;
+        background-size: 1000px; 
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+
+     }
+
+
+    .r3img1 {
+        background-image: url("../img/r3img1.jpg");
+     }
+
+    .r3img2 {
+        background-image: url("../img/r3img2.jpg");
+     }
+    .r3img3 {
+        background-image: url("../img/r3img3.jpg");
+     }
+     .r3img4 {
+        background-image: url("../img/r3img4.jpg");
+     }
+     .r3img5 {
+        background-image: url("../img/r3img5.jpg");
+     }
+     .r3img6 {
+        background-image: url("../img/r3img6.jpg");
+     }
+
+ .r3img1, .r3img2, .r3img3, .r3img4, .r3img5, .r3img6 {
+        background-position: 0% 40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -400px;
+     }
+
+     .r3img1x {
+        background-image: url("../img/r3img1x.jpg");
+     }
+     .r3img2x {
+        background-image: url("../img/r3img2x.jpg");
+     }
+     .r3img3x {
+        background-image: url("../img/r3img3x.jpg");
+     }
+
+    .r3img1x, .r3img2x, .r3img3x {
+        background-repeat: no-repeat;
+        background-size: 800px; 
+        background-position: 0% 30%;
+        background-attachment: fixed;
+        background-position: center;
+        cursor: pointer;
+    }
+
+     .r3img1 {
+        margin: 0;
+     }
+
+
+
+
+
+
+    
+

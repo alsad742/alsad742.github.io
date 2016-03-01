@@ -1,9 +1,19 @@
+.hidden {
+	display: none;
+}
+
+.hoverable:hover .hidden{
+	display: block;
+
+}
+
 body {
 	margin: 0;
 	padding: 0; 
 	font-size: 15px;
 	font-family: arial, helvetica, sans-serif;
 }
+
 
 div {
 	vertical-align: top;
