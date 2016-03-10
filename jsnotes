@@ -1,0 +1,35 @@
+variables 
+	-String
+		series of characters strung together to make a phrase
+			"hello word"
+		the quotations make it a string
+
+	-Number
+		any number 0-9
+
+	-Boolean
+		true / false
+		1 / 0
+
+		"the sky is blue"
+		=> true / 1
+
+		0 = 0 (a statement)
+		0 == 0 (a question)
+		=> true
+
+		100 == 0 
+		=> false
+
+	-Array
+		a collection of different data that you can then retrieve at a later time
+
+		0. socks 
+		1. shirts
+		2. pants
+		3. out of season
+
+		var dresser = ["socks", "shirts", "pants", "out of season"];
+
+		dresser[1] => "shirts" 
+
