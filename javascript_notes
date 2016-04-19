@@ -1,0 +1,56 @@
+$(window).keypress(function(event) {
+	console.log(event.which); 
+	if (event.which == 97 || event.which == 65) {
+	$("html").append("You pressed letter A");
+	}
+});
+
+|| = "or"
+
+$(window).keypress(function(event) {
+	console.log(event.which); 
+	if (event.which == 97 || event.which == 65) {
+	$("html").append("html value for letter");
+	}
+});
+
+
+
+$(window).keypress(function(event) {
+	if(event.which == 97 || event.which == 65) {
+		var newLetter = $(".alphabet .letter-a .letter").clone();
+		$("body").append(newLetter);
+	}
+	if(event.which == 98 || event.which == 66) {
+		var newLetter = $(".alphabet .letter-b .letter").clone();
+		$("body").append(newLetter);
+	}
+
+});
+
+
+
+
+area to type in: 
+
+<div class="stage">
+
+</div>
+
+ js:
+ $(window).keypress(function(event) {
+	if(event.which == 97 || event.which == 65) {
+		var newLetter = $(".alphabet .letter-a .letter").clone();
+		$(".stage").append(newLetter);
+	}
+	if(event.which == 98 || event.which == 66) {
+		var newLetter = $(".alphabet .letter-b .letter").clone();
+		$(".stage").append(newLetter);
+	}
+
+});
+
+
+
+
+

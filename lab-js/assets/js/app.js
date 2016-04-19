@@ -8,6 +8,7 @@ var clothing = ["shirts", "socks", "pants"];
 var winner = false; 
 var checking_account = 1000;
 
+
 console.log(winner);
 
 

@@ -1,0 +1,49 @@
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+.scroll-fade-in {
+	opacity: 0;
+}
+
+.break { 
+	font-size: 80px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.scrollup {
+	position: fixed;
+	width: 95%;
+	text-align: right;
+	cursor: pointer;
+}
+
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10 {
+	width: 1000px;
+	height: 500px;
+	margin-left: 100px;
+	margin-top: 100px;
+	display: inline-block;
+}
+
+.stage {
+	border: 1px solid black;
+	width: 1000px;
+	height: 1000px;
+	margin-top: 0px;
+	margin-left: 100px;
+	padding: 30px 30px 30px 30px;
+}
+
+.typetitle {
+	font-size: 80px;
+	margin-left: 100px;
+	margin-top: 200px;
+}
+
+.sentence-wrapper { display: inline-block; }
+
+.time-stamp { text-align: right; }
