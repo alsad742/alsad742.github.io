@@ -2,6 +2,10 @@
 	display: inline-block;
 }
 
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+	display: inline-block;
+}
+
 .letter-wrapper {
 	display: inline-block;
 	margin: 0px 15px 60px 15px;	
@@ -16,8 +20,6 @@
 	width: 180px;
 	height: 200px;
 }
-
-
 
 
 .letter {
@@ -725,8 +727,6 @@
 
 .z-white { width: 45px; height: 20px; }
 .z-btm { width: 140px; }
-
-
 
 
 .blurhr1 {-webkit-filter: blur(16px);}

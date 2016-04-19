@@ -158,8 +158,8 @@ $(function() {
         $(".stage").append(newLetter);
     }
     if (event.which == 32) {
-   newLetter = $(".alphabet.letterspace");     
-   $(target).append(newLetter);
+   newLetter = $(".space");     
+   $(".stage").append(newLetter);
 }
 
 
