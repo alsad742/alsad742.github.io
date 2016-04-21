@@ -1,0 +1,38 @@
+
+.yellow { color: yellow;}
+.red { color: red}
+.blue { color: blue;}
+
+.content { position: absolute; }
+
+.object {
+	font-size: 40px;
+	margin: 20px;
+	margin-left: 450px;
+}
+
+.title {
+ font-size: 60px;
+ margin-left: 300px;
+}
+
+.description {
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+.animal {
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+	display: block;
+	outline: 1px solid black;
+	margin: 10px;
+	padding-left: 10px;
+	width: 130px;
+}
+
+.dog_button {
+	margin-top: 20px;
+}
+
