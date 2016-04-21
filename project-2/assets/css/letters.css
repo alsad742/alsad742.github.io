@@ -728,6 +728,12 @@
 .z-white { width: 45px; height: 20px; }
 .z-btm { width: 140px; }
 
+.space {
+	width: 40px;
+	height: 100px;
+	display: inline-block;
+}
+
 
 .blurhr1 {-webkit-filter: blur(16px);}
 .blurhr2 {-webkit-filter: blur(18px);}

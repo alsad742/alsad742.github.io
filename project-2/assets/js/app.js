@@ -161,6 +161,10 @@ $(function() {
    newLetter = $(".space");     
    $(".stage").append(newLetter);
 }
+if (event.which == 46) {
+   newLetter = $(".delete");     
+   $(".stage").append(newLetter);
+}
 
 
 });
