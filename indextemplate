@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <div class="c c6 header">
-        <h1>Daniela Al-Saleh </h1>
+        <h1>Daniela Al-Saleh</h1>
         Core Interaction
       </div>
 
@@ -26,7 +26,7 @@
           <li><a href="project-2/typefacesv1.pdf">Typeface Sketches v1<a/></li>
           <li><a href="project-2/index.html">Typeface Specimen Site<a/></li>
         <h3>Project 3</h3>
-          <li><a href="project-3/project3.pdf">Poem Generator sketches<a/></li>
+          <li><a href="project-3/index.html">Poem Generator<a/></li>
         </ul>
       </div>
 
