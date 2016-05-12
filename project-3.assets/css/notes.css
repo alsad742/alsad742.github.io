@@ -1,0 +1,197 @@
+.notecircle {
+	width: 65px;
+	height: 46px;
+	background-color: black;
+	border-radius: 100px / 70px;
+	position: absolute;
+	left: 250px;
+	top: 285px;
+	-webkit-transform: rotate(340deg);
+
+}
+
+.noteline {
+	height: 138px;
+	width: 5px;
+	background-color: black;
+	position: absolute;
+	left: 309px;
+	top: 165px;
+	margin-right: 40px;
+}
+
+/*.notes {
+	width: 50000px;
+	height: 300px;
+	color: transparent;
+}*/
+
+.note {
+	display: inline-block;
+	position: absolute;
+}
+
+/*.notes2{
+	width: 100px;
+	height: 300px;
+}*/
+
+.note2 {
+	margin-left: 450px;
+	margin-top: 0px;
+	width: 80px;
+	height: 150px;
+
+}
+.note2-2 {
+	margin-left: 450px;
+	margin-top: -0px;
+}
+.note2-3 {
+	margin-left: 450px;
+	margin-top: -60px;
+	width: 80px;
+	height: 150px;
+}
+.note2-4 {
+	margin-left: 450px;
+	margin-top: -310px;
+	width: 80px;
+	height: 150px;
+}
+.note2-5 {
+	margin-left: 450px;
+	margin-top: 60px;
+	width: 80px;
+	height: 150px;
+}
+
+
+.notes3{
+	width: 100px;
+	height: 300px;
+}
+
+.note3 {
+	margin-left: 650px;
+	margin-top: -200px;
+	/*width: 50px;
+	height: 100px;*/
+}
+.note3-2 {
+	margin-left: 650px;
+	margin-top: -250px;
+	width: 50px;
+	height: 100px;
+}
+.note3-3 {
+	margin-left: 650px;
+	margin-top: -200px;
+	width: 50px;
+	height: 100px;
+}
+.note3-4 {
+	margin-left: 650px;
+	margin-top: -150px;
+	width: 50px;
+	height: 100px;
+}
+.note3-5 {
+	margin-left: 650px;
+	margin-top: -100px;
+	width: 50px;
+	height: 100px;
+}
+
+
+.note4 {
+	margin-left: 850px;
+	margin-top: 0px;
+	width: 50px;
+	height: 100px;
+}
+.note5 {
+	margin-left: 1050px;
+	margin-top: -200px;
+	width: 50px;
+	height: 100px;
+}
+/*.note6 {
+	margin-left: 1250px;
+	margin-top: -50px;
+	width: 50px;
+	height: 100px;
+}
+.note7 {
+	margin-left: 1450px;
+	margin-top: -250px;
+	width: 50px;
+	height: 100px;
+}
+.note8 {
+	margin-left: 1650px;
+	margin-top: -50px;
+	width: 50px;
+	height: 100px;
+}
+.note9 {
+	margin-left: 1850px;
+	margin-top: -0px;
+	width: 50px;
+	height: 100px;
+}
+.note10 {
+	margin-left: 2050px;
+	margin-top: -150px;
+	width: 50px;
+	height: 100px;
+}
+.note11 {
+	margin-left: 2250px;
+	margin-top: -50px;
+	width: 50px;
+	height: 100px;
+}
+.note12 {
+	margin-left: 2450px;
+	margin-top: -150px;
+	width: 50px;
+	height: 100px;
+}
+.note13 {
+	margin-left: 2650px;
+	margin-top: -200px;
+	width: 50px;
+	height: 100px;
+}
+.note14 {
+	margin-left: 2850px;
+	margin-top: 100px;
+	width: 50px;
+	height: 100px;
+}
+.note15 {
+	margin-left: 3050px;
+	margin-top: -200px;
+	width: 50px;
+	height: 100px;
+}
+.note16 {
+	margin-left: 3250px;
+	margin-top: -100px;
+	width: 50px;
+	height: 100px;
+}
+.note17 {
+	margin-left: 3450px;
+	margin-top: -50px;
+	width: 50px;
+	height: 100px;
+}
+.note18 {
+	margin-left: 3650px;
+	margin-top: -200px;
+	width: 50px;
+	height: 100px;
+}
+*/

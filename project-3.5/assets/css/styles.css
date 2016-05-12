@@ -1,0 +1,81 @@
+.container {
+	display: inline-block;
+
+}
+
+.wordscontainer {
+	width: 50000px;
+	height: 50px;
+	font-size: 48px;
+	color: white;
+	margin-left: 160px;
+	position: absolute;
+	
+}
+
+
+.word {
+	margin-right: 50px;
+	margin-top: 70px;
+	display: inline-block;
+}
+
+
+.treble, .whitetreble {
+	position: absolute;
+	top: 200px;
+	left: 30px;
+}
+
+.hidden {
+	display: none;
+}
+
+
+.vert-line {
+	height: 208px;
+	width: 5px;
+	margin-top: 250px;
+	background-color: black;
+}
+
+.horiz-line1, .horiz-line2, .horiz-line3, .horiz-line4, .horiz-line5 {
+	height: 2px;
+	width: 50000px;
+	background-color: black;
+	position: absolute;
+	cursor: pointer;
+}
+
+
+
+
+.fine {
+	position: fixed;
+	border: 1px solid white; 
+	width: 85px;
+	height: 85px;
+	border-radius: 100px;
+	margin-left: 1110px;
+	margin-top: 100px;
+	font-family: 'Tangerine', cursive, bold;
+	font-size: 50px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+span {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+
+
+
+.horiz-line1 {top: 258px;}
+.horiz-line2 {top: 308px;}
+.horiz-line3 {top: 362px;}
+.horiz-line4 {top: 412px;}
+.horiz-line5 {top: 464px;}

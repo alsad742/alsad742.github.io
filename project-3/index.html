@@ -3,16 +3,208 @@
   <head>
     <title>Daniela Al-Saleh</title>
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
+    <link href="assets/css/notes.css" media="all" rel="stylesheet" />
     <link rel="shortcut icon" href="" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
   </head>
 
-  <body>
+<body>
+ 
+ <div id="audio"></div>
 
-    <img src="treble.png" alt="HTML5 Icon">
+<div class="container">
+
+    <div class="vert-line"></div>
+    <div class="horiz-lines">
+    <div class="horiz-line1"></div>
+    <div class="horiz-line2"></div>
+    <div class="horiz-line3"></div>
+    <div class="horiz-line4"></div>
+    <div class="horiz-line5"></div>
+   </div>
+
+</div>
+
+<div class="wordscontainer" id="textarea"><div class="word"></div></div>
 
 
 
+  <div class="notes notecircle hidden"></div>
+  <div class="notes noteline hidden"></div> 
+
+<div class="notes2 hidden">
+  <div class ="note note-2 note2"><img src="assets/img/note.png" style="height:160px";/></div>
+  <div class ="note note-2 note2-2"><img src="assets/img/note.png" style="height:160px";/></div>
+ <!-- <div class ="note note-2 note2-3"><img src="assets/img/note.png" style="height:160px";/></div>
+  <div class ="note note-2 note2-4"><img src="assets/img/note.png" style="height:160px";/></div>
+ <div class ="note note-2 note2-5"><img src="assets/img/note.png" style="height:160px";/></div> -->
+</div>
+  <!-- <div class ="note2-6 hidden"><img src="assets/img/note.png" style="height:160px";/></div>
+ <div class ="note2-7 hidden"><img src="assets/img/note.png" style="height:160px";/></div>
+  <div class ="note2-8 hidden"><img src="assets/img/note.png" style="height:160px";/></div>
+ <div class ="note2-9 hidden"><img src="assets/img/note.png" style="height:160px";/></div>
+  <div class ="note2-10 hidden"><img src="assets/img/note.png" style="height:160px";/></div>
+ -->
+
+
+<!-- <div class ="note3 hidden" ><img src="assets/img/note.png" style="height:160px";/></div> -->
+
+
+ <!--  <div class ="note note3 hidden"><img src="assets/img/note.png" style="height:160px";/></div> -->
+ <!--  <div class ="note-3 note3-2"><img src="assets/img/note.png" style="height:160px";/></div>
+ <div class ="note-3 note3-3"><img src="assets/img/note.png" style="height:160px";/></div>
+  <div class ="note-3 note3-4"><img src="assets/img/note.png" style="height:160px";/></div>
+ <div class ="note-3 note3-5"><img src="assets/img/note.png" style="height:160px";/></div> -->
+
+<!-- 
+<div class ="note note4 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note5 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note6 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note7 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note8 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note9 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note10 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note11 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note12 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note13 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note14 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note15 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note16 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note17 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+<div class ="note note18 hidden" ><img src="assets/img/note.png" style="height:160px";/></div>
+ -->
+
+
+
+
+
+<div class="treble">
+    <img src= "assets/img/treble.png" style="height:350px;"/></div>
+
+    <div class="whitetreble hidden">
+    <img src= "assets/img/whitetreble.png" style="height:350px;"/></div>
+
+
+
+<div class="pianokeys">
+    <audio id="note-1">
+      <source src="assets/audio/piano1.wav.m4a">
+    </audio>
+     <audio id="note-2">
+      <source src="assets/audio/piano2.wav.m4a">
+    </audio>
+     <audio id="note-3">
+      <source src="assets/audio/piano3.wav.m4a">
+    </audio>
+     <audio id="note-4">
+      <source src="assets/audio/piano4.wav.m4a">
+    </audio>
+     <audio id="note-5">
+      <source src="assets/audio/piano5.wav.m4a">
+    </audio>
+     <audio id="note-6">
+      <source src="assets/audio/piano6.wav.m4a">
+    </audio>
+     <audio id="note-7">
+      <source src="assets/audio/piano7.wav.m4a">
+    </audio>
+     <audio id="note-8">
+      <source src="assets/audio/piano8.wav.m4a">
+    </audio>
+     <audio id="note-9">
+      <source src="assets/audio/piano9.wav.m4a">
+    </audio>
+    <audio id="note-10">
+      <source src="assets/audio/piano10.wav.m4a">
+    </audio>
+     <audio id="note-11">
+      <source src="assets/audio/piano11.wav.m4a">
+    </audio>
+  <audio id="note-12">
+      <source src="assets/audio/piano12.wav.m4a">
+    </audio>
+  <audio id="note-13">
+      <source src="assets/audio/piano13.wav.m4a">
+    </audio>
+  <audio id="note-14">
+      <source src="assets/audio/piano14.wav.m4a">
+    </audio>
+  <audio id="note-15">
+      <source src="assets/audio/piano15.wav.m4a">
+    </audio>
+  <audio id="note-16">
+      <source src="assets/audio/piano16.wav.m4a">
+    </audio>
+  <audio id="note-17">
+      <source src="assets/audio/piano17.wav.m4a">
+    </audio>
+  <audio id="note-18">
+      <source src="assets/audio/piano18.wav.m4a">
+    </audio>
+  <audio id="note-19">
+      <source src="assets/audio/piano19.wav.m4a">
+    </audio>
+  <audio id="note-20">
+      <source src="assets/audio/piano20.wav.m4a">
+    </audio>
+  <audio id="note-21">
+      <source src="assets/audio/piano21.wav.m4a">
+    </audio>
+  <audio id="note-22">
+      <source src="assets/audio/piano22.wav.m4a">
+    </audio>
+  <audio id="note-23">
+      <source src="assets/audio/piano23.wav.m4a">
+    </audio>
+  <audio id="note-24">
+      <source src="assets/audio/piano24.wav.m4a">
+    </audio>
+  <audio id="note-25">
+      <source src="assets/audio/piano25.wav.m4a">
+    </audio>
+  <audio id="note-26">
+      <source src="assets/audio/piano26.wav.m4a">
+    </audio>
+  <audio id="note-27">
+      <source src="assets/audio/piano27.wav.m4a">
+    </audio>
+  <audio id="note-28">
+      <source src="assets/audio/piano28.wav.m4a">
+    </audio>
+  <audio id="note-29">
+      <source src="assets/audio/piano29.wav.m4a">
+    </audio>
+   <audio id="note-30">
+      <source src="assets/audio/piano30.wav.m4a">
+    </audio>
+  <audio id="note-31">
+      <source src="assets/audio/piano31.wav.m4a">
+    </audio>
+  <audio id="note-32">
+      <source src="assets/audio/piano32.wav.m4a">
+    </audio>
+  <audio id="note-33">
+      <source src="assets/audio/piano33.wav.m4a">
+    </audio>
+  <audio id="note-34"
+      <source src="assets/audio/piano34.wav.m4a">
+    </audio>
+  <audio id="note-35">
+      <source src="assets/audio/piano35.wav.m4a">
+    </audio>
+  <audio id="note-36">
+      <source src="assets/audio/piano36.wav.m4a">
+    </audio>
+  
+  
+</div>
+
+
+<div class="fine hidden">fine</div>
+
+                        
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
     <script src="assets/js/app.js"></script>
 
   </body>

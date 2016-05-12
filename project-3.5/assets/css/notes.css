@@ -1,0 +1,90 @@
+.note {
+	display: inline-block;
+}
+
+.notewrapper {
+	position: absolute;
+	width: 50000px;
+	height: 250px;
+	margin-left: 250px;
+	margin-top: -250px;
+}
+
+.note1 {
+	margin-top: -50px;
+}
+.note1-2 {
+	margin-top: -100px;
+}
+.note1-3 {
+	margin-top: 50px;
+}
+.note1-4 {
+	margin-top: 10px;
+}
+.note1-5 {
+	margin-top: 0px;
+}
+
+.notes1 {
+	width: 100px;
+	height: 250px;
+	/*position: absolute;*/
+	/*display: block;*/
+}
+
+.notes2 {
+	width: 100px;
+	height: 280px;
+	margin-left: 150px;
+	margin-top: 200px;
+	position: absolute;
+	display: inline-block;
+	/*position: absolute;*/
+	/*display: block;*/
+}
+
+
+.note2 { margin-top: 50px;}
+.note2-2 {margin-top: -50px; }
+.note2-3 { margin-top: 105px; }
+.note2-4 {margin-top: 0px;}
+.note2-5 { margin-top: -100px;}
+
+.notes3, .notes4, .notes5, .notes6, .notes7, .notes8, .notes9, .notes10, .notes11, .notes12, .notes13, .notes14, .notes15, .notes16, .notes17, .notes18, .notes19, .notes20 {
+	width: 100px;
+	height: 280px;
+	margin-top: 200px;
+	position: absolute;
+	display: inline-block;
+}
+
+.notes3 {margin-left: 350px;}
+.notes4 {margin-left: 550px;}
+.notes5 {margin-left: 750px;}
+.notes6 {margin-left: 950px;}
+.notes7 {margin-left: 1150px;}
+.notes8 {margin-left: 1350px;}
+.notes9 {margin-left: 1550px;}
+.notes10 {margin-left: 1750px;}
+.notes11 {margin-left: 1950px;}
+.notes12 {margin-left: 2150px;}
+.notes13 {margin-left: 2350px;}
+.notes14 {margin-left: 2550px;}
+.notes15 {margin-left: 2750px;}
+.notes16 {margin-left: 2950px;}
+.notes17 {margin-left: 3150px;}
+.notes18 {margin-left: 3350px;}
+.notes19 {margin-left: 3550px;}
+.notes20 {margin-left: 3750px;}
+
+.note3, .note4, .note5, .note6, .note7, .note8, .note9, .note10, .note11, .note12, .note13, .note14, .note15, .note16, .note17, .note18, .note19, .note20 { margin-top: 50px;}
+.note3-2, .note4-2, .note5-2, .note6-2, .note7-2, .note8-2, .note9-2, .note10-2, .note11-2, .note12-2, .note13-2, .note14-2, .note15-2, .note16-2, .note17-2, .note18-2, .note19-2, .note20-2 {margin-top: -50px; }
+.note3-3, .note4-3, .note5-3, .note6-3, .note7-3, .note8-3, .note9-3, .note10-3, .note11-3, .note12-3, .note13-3, .note14-3, .note15-3, .note16-3, .note17-3, .note18-3, .note19-3, .note20-3 { margin-top: 105px; }
+.note3-4, .note4-4, .note5-4, .note6-4, .note7-4, .note8-4, .note9-4, .note10-4, .note11-4, .note12-4, .note13-4, .note14-4, .note15-4, .note16-4, .note17-4, .note18-4, .note19-4, .note20-4 {margin-top: 0px;}
+.note3-5, .note4-5, .note5-5, .note6-5, .note7-5, .note8-5, .note9-5, .note10-5, .note11-5, .note12-5, .note13-5, .note14-5, .note15-5, .note16-5, .note17-5, .note18-5, .note19-5, .note20-5 { margin-top: -100px;}
+
+
+
+
+
