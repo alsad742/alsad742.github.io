@@ -7,10 +7,13 @@ audio.volume = 0.1;
     }
 });
 
+ 
+
  $(".fine").click( function() {
-    var pitch = Math.floor(Math.random() * 2);
-    // var rate = Math.floor(Math.random() * 1.5);
-    responsiveVoice.speak(wordstring, "UK English Male", { pitch: pitch, rate: 0.9 });
+    var pitches = Math.floor(Math.random()*2);
+    var rates = Math.floor(Math.random()*1);
+
+    responsiveVoice.speak(wordstring, "UK English Male", { pitch: pitches, rate: rates });
    $('body').scrollLeft(0);
    // $("body").animate({scrollLeft: 0} 100); {
    // }
