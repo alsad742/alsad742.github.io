@@ -10,10 +10,7 @@ audio.volume = 0.1;
  
 
  $(".fine").click( function() {
-    var pitches = Math.floor(Math.random()*2);
-    var rates = Math.floor(Math.random()*1);
-
-    responsiveVoice.speak(wordstring, "UK English Male", { pitch: pitches, rate: rates });
+    responsiveVoice.speak(wordstring, "UK English Male");
    $('body').scrollLeft(0);
    // $("body").animate({scrollLeft: 0} 100); {
    // }
