@@ -3,9 +3,26 @@ audio.volume = 0.1;
 
  $(window).scroll(function() {
     if ($(window).scrollLeft() > 1000) {
-        $(".fine").show(1000);
+        $(".fine").fadeIn(500);
     }
 });
+
+ $(".fine").click( function() {
+    var pitch = Math.floor(Math.random() * 2);
+    // var rate = Math.floor(Math.random() * 1.5);
+    responsiveVoice.speak(wordstring, "UK English Male", { pitch: pitch, rate: 0.9 });
+   $('body').scrollLeft(0);
+   // $("body").animate({scrollLeft: 0} 100); {
+   // }
+   // $(".textbox, .textboxbg").fadeIn();
+   $(".horiz-line1, .horiz-line2, .horiz-line3, .horiz-line4, .horiz-line5, .vert-line, .whitetreble, .note, .fine").css('visibility', 'hidden');
+   $(".wordscontainer").css({ "font-size": "150%", "margin-top": "-300px", "margin-left": "350px", "width": "500px"})
+   $(".word").css({ "margin-right": "5px"})
+ });
+
+
+  var wordstring = "";
+  var singleword = "";
 
 
 $(".horiz-lines, .notes").click(function(){
@@ -143,6 +160,56 @@ var notes20 = ['<div class="note note20 notes20"><img src="assets/img/note.png" 
     '<div class="note note20-3 notes20"><img src="assets/img/note.png" style="height:160px";/></div>',
     '<div class="note note20-4 notes20"><img src="assets/img/note.png" style="height:160px";/></div>', 
     '<div class="note note20-5 notes20"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes21 = ['<div class="note note21 notes21"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note21-2 notes21"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note21-3 notes21"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note21-4 notes21"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note21-5 notes21"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes22 = ['<div class="note note22 notes22"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note22-2 notes22"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note22-3 notes22"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note22-4 notes22"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note22-5 notes22"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes23 = ['<div class="note note23 notes23"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note23-2 notes23"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note23-3 notes23"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note23-4 notes23"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note23-5 notes23"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes24 = ['<div class="note note24 notes24"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note24-2 notes24"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note24-3 notes24"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note24-4 notes24"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note24-5 notes24"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes25 = ['<div class="note note25 notes25"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note25-2 notes25"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note25-3 notes25"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note25-4 notes25"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note25-5 notes25"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes26 = ['<div class="note note26 notes26"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note26-2 notes26"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note26-3 notes26"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note26-4 notes26"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note26-5 notes26"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes27 = ['<div class="note note27 notes27"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note27-2 notes27"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note27-3 notes27"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note27-4 notes27"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note27-5 notes27"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes28 = ['<div class="note note28 notes28"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note28-2 notes28"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note28-3 notes28"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note28-4 notes28"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note28-5 notes28"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes29 = ['<div class="note note29 notes29"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note29-2 notes29"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note29-3 notes29"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note29-4 notes29"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note29-5 notes29"><img src="assets/img/note.png" style="height:160px";/></div>'];
+var notes30 = ['<div class="note note30 notes30"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note30-2 notes30"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note30-3 notes30"><img src="assets/img/note.png" style="height:160px";/></div>',
+    '<div class="note note30-4 notes30"><img src="assets/img/note.png" style="height:160px";/></div>', 
+    '<div class="note note30-5 notes30"><img src="assets/img/note.png" style="height:160px";/></div>'];
 
 
  $(window).keypress(function(event) { 
@@ -212,6 +279,36 @@ if (numKeys == 19) {
 if (numKeys == 20) {
     $(".notewrapper").append(notes20[Math.floor(Math.random()*notes20.length)]);
   };
+if (numKeys == 21) {
+    $(".notewrapper").append(notes21[Math.floor(Math.random()*notes21.length)]);
+  };
+if (numKeys == 22) {
+    $(".notewrapper").append(notes22[Math.floor(Math.random()*notes22.length)]);
+  };
+if (numKeys == 23) {
+    $(".notewrapper").append(notes23[Math.floor(Math.random()*notes23.length)]);
+  };
+if (numKeys == 24) {
+    $(".notewrapper").append(notes24[Math.floor(Math.random()*notes24.length)]);
+  };
+if (numKeys == 25) {
+    $(".notewrapper").append(notes25[Math.floor(Math.random()*notes25.length)]);
+  };
+if (numKeys == 26) {
+    $(".notewrapper").append(notes26[Math.floor(Math.random()*notes26.length)]);
+  };
+if (numKeys == 27) {
+    $(".notewrapper").append(notes27[Math.floor(Math.random()*notes27.length)]);
+  };
+if (numKeys == 28) {
+    $(".notewrapper").append(notes28[Math.floor(Math.random()*notes28.length)]);
+  };
+if (numKeys == 29) {
+    $(".notewrapper").append(notes29[Math.floor(Math.random()*notes29.length)]);
+  };
+if (numKeys == 30) {
+    $(".notewrapper").append(notes30[Math.floor(Math.random()*notes30.length)]);
+  };
 
 
 
@@ -230,16 +327,7 @@ if (numKeys == 20) {
 
 
 
-$(".fine").click( function() {
-    var pitch = Math.floor(Math.random() * 2);
-    responsiveVoice.speak(wordstring, "UK English Male", {pitch: pitch});
-   $("body").animate({scrollLeft: 0}, 800); {
-   }
- });
 
-
-  var wordstring = "";
-  var singleword = "";
 
 
 var chosenword = words[Math.floor(Math.random()*words.length)];
@@ -481,6 +569,8 @@ $(document).ready(function(){
 
 
 });
+
+
 
 
 

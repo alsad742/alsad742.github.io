@@ -51,7 +51,8 @@
 .note2-4 {margin-top: 0px;}
 .note2-5 { margin-top: -100px;}
 
-.notes3, .notes4, .notes5, .notes6, .notes7, .notes8, .notes9, .notes10, .notes11, .notes12, .notes13, .notes14, .notes15, .notes16, .notes17, .notes18, .notes19, .notes20 {
+.notes3, .notes4, .notes5, .notes6, .notes7, .notes8, .notes9, .notes10, .notes11, .notes12, .notes13, .notes14, .notes15, .notes16, .notes17, .notes18, .notes19, .notes20, 
+.notes21, .notes22, .notes23, .notes24, .notes25, .notes26, .notes27, .notes28, .notes29, .notes30 .notes31, .notes32, .notes33, .notes34, .notes35, .notes36, .notes37, .notes38, .notes39, .notes40 {
 	width: 100px;
 	height: 280px;
 	margin-top: 200px;
@@ -77,12 +78,32 @@
 .notes18 {margin-left: 3350px;}
 .notes19 {margin-left: 3550px;}
 .notes20 {margin-left: 3750px;}
+.notes21 {margin-left: 3950px;}
+.notes22 {margin-left: 4150px;}
+.notes23 {margin-left: 4350px;}
+.notes24 {margin-left: 4550px;}
+.notes25 {margin-left: 4750px;}
+.notes26 {margin-left: 4950px;}
+.notes27 {margin-left: 5150px;}
+.notes28 {margin-left: 5350px;}
+.notes29 {margin-left: 5550px;}
+.notes30 {margin-left: 5750px;}
+/*.notes31 {margin-left: 5950px;}
+.notes32 {margin-left: 6150px;}
+.notes33 {margin-left: 6350px;}
+.notes34 {margin-left: 6550px;}
+.notes35 {margin-left: 6750px;}
+.notes36 {margin-left: 6950px;}
+.notes37 {margin-left: 7150px;}
+.notes38 {margin-left: 7350px;}
+.notes39 {margin-left: 7550px;}
+.notes40 {margin-left: 7750px;}*/
 
-.note3, .note4, .note5, .note6, .note7, .note8, .note9, .note10, .note11, .note12, .note13, .note14, .note15, .note16, .note17, .note18, .note19, .note20 { margin-top: 50px;}
-.note3-2, .note4-2, .note5-2, .note6-2, .note7-2, .note8-2, .note9-2, .note10-2, .note11-2, .note12-2, .note13-2, .note14-2, .note15-2, .note16-2, .note17-2, .note18-2, .note19-2, .note20-2 {margin-top: -50px; }
-.note3-3, .note4-3, .note5-3, .note6-3, .note7-3, .note8-3, .note9-3, .note10-3, .note11-3, .note12-3, .note13-3, .note14-3, .note15-3, .note16-3, .note17-3, .note18-3, .note19-3, .note20-3 { margin-top: 105px; }
-.note3-4, .note4-4, .note5-4, .note6-4, .note7-4, .note8-4, .note9-4, .note10-4, .note11-4, .note12-4, .note13-4, .note14-4, .note15-4, .note16-4, .note17-4, .note18-4, .note19-4, .note20-4 {margin-top: 0px;}
-.note3-5, .note4-5, .note5-5, .note6-5, .note7-5, .note8-5, .note9-5, .note10-5, .note11-5, .note12-5, .note13-5, .note14-5, .note15-5, .note16-5, .note17-5, .note18-5, .note19-5, .note20-5 { margin-top: -100px;}
+.note3, .note4, .note5, .note6, .note7, .note8, .note9, .note10, .note11, .note12, .note13, .note14, .note15, .note16, .note17, .note18, .note19, .note20, .notes21, .note22, .note23, .note24, .note25, .note26, .note27, .note28, .note29, .note30, .note31, .note32, .note33, .note34, .note35, .note36, .note37, .note38, .note39, .note40 { margin-top: 50px;}
+.note3-2, .note4-2, .note5-2, .note6-2, .note7-2, .note8-2, .note9-2, .note10-2, .note11-2, .note12-2, .note13-2, .note14-2, .note15-2, .note16-2, .note17-2, .note18-2, .note19-2, .note20-2, .note21-2, .note22-2, .note23-2, .note24-2, .note25-2, .note26-2, .note27-2, .note28-2, .note29-2, .note30-2 {margin-top: -50px; }
+.note3-3, .note4-3, .note5-3, .note6-3, .note7-3, .note8-3, .note9-3, .note10-3, .note11-3, .note12-3, .note13-3, .note14-3, .note15-3, .note16-3, .note17-3, .note18-3, .note19-3, .note20-3, .note21-3, .note22-3, .note23-3, .note24-3, .note25-3, .note26-3, .note27-3, .note28-3, .note29-3, .note30-3 { margin-top: 105px; }
+.note3-4, .note4-4, .note5-4, .note6-4, .note7-4, .note8-4, .note9-4, .note10-4, .note11-4, .note12-4, .note13-4, .note14-4, .note15-4, .note16-4, .note17-4, .note18-4, .note19-4, .note20-4, .note21-4, .note22-4, .note23-4, .note24-4, .note25-4, .note26-4, .note27-4, .note28-4, .note29-4, .note30-4 {margin-top: 0px;}
+.note3-5, .note4-5, .note5-5, .note6-5, .note7-5, .note8-5, .note9-5, .note10-5, .note11-5, .note12-5, .note13-5, .note14-5, .note15-5, .note16-5, .note17-5, .note18-5, .note19-5, .note20-5, .note21-5, .note22-5, .note23-5, .note24-5, .note25-5, .note26-5, .note27-5, .note28-5, .note29-5, .note30-5 { margin-top: -100px;}
 
 
 

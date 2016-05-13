@@ -123,6 +123,10 @@ a:link, a:active, a:visited {
     color: gray;
 }
 
+a:hover {
+	color: blue;
+}
+
 .horiz1 {
 	width: 50px;
 	height: 8px;
