@@ -229,12 +229,14 @@ if (numKeys == 20) {
 
 
 
+
 $(".fine").click( function() {
-    responsiveVoice.speak(wordstring, "UK English Male");
+    var pitch = Math.floor(Math.random() * 2);
+    responsiveVoice.speak(wordstring, "UK English Male", {pitch: pitch});
    $("body").animate({scrollLeft: 0}, 800); {
-    
    }
  });
+
 
   var wordstring = "";
   var singleword = "";
@@ -258,207 +260,213 @@ var chosenword = words[Math.floor(Math.random()*words.length)];
   if(event.which == 49) {
       var myAudio = document.getElementById("note-1"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
     }
 
     if(event.which == 50) {
       var myAudio = document.getElementById("note-2"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
     }
 
     if(event.which == 51) {
       var myAudio = document.getElementById("note-3"); 
       myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
     }
 
     if(event.which == 52) {
       var myAudio = document.getElementById("note-4"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
     }
 
     if(event.which == 53) {
       var myAudio = document.getElementById("note-5"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
 
     }
 
     if(event.which == 54) {
       var myAudio = document.getElementById("note-6"); 
     myAudio.play();
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
+
     }
 
     if(event.which == 55) {
       var myAudio = document.getElementById("note-7"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
     }
 
     if(event.which == 56) {
       var myAudio = document.getElementById("note-8"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
     }
 
     if(event.which == 57) {
       var myAudio = document.getElementById("note-9"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
     }
 
     if(event.which == 48) {
       var myAudio = document.getElementById("note-10"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male");
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
     }
 
     if(event.which == 113) {
       var myAudio = document.getElementById("note-11"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
 
   if(event.which == 119) {
       var myAudio = document.getElementById("note-12"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
 
   if(event.which == 101) {
       var myAudio = document.getElementById("note-13"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
 
   if(event.which == 114) {
       var myAudio = document.getElementById("note-14"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
 
  if(event.which == 116) {
       var myAudio = document.getElementById("note-15"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
 
  if(event.which == 121) {
       var myAudio = document.getElementById("note-16"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
 
  if(event.which == 117) {
       var myAudio = document.getElementById("note-17"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
 
  if(event.which == 105) {
       var myAudio = document.getElementById("note-18"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
 
  if(event.which == 111) {
       var myAudio = document.getElementById("note-19"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
  if(event.which == 112) {
       var myAudio = document.getElementById("note-20"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
     }
  if(event.which == 97) {
       var myAudio = document.getElementById("note-21"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 115) {
       var myAudio = document.getElementById("note-22"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 100) {
       var myAudio = document.getElementById("note-23"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 102) {
       var myAudio = document.getElementById("note-24"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 103) {
       var myAudio = document.getElementById("note-25"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 104) {
       var myAudio = document.getElementById("note-26"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 106) {
       var myAudio = document.getElementById("note-27"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 107) {
       var myAudio = document.getElementById("note-28"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 108) {
       var myAudio = document.getElementById("note-29"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.8});
+    responsiveVoice.speak(singleword, "UK English Male", {pitch: 1.4});
     }
  if(event.which == 122) {
       var myAudio = document.getElementById("note-30"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
+    responsiveVoice.speak(singleword, "UK English Male");
     }
 if(event.which == 120) {
       var myAudio = document.getElementById("note-31"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
+    responsiveVoice.speak(singleword, "UK English Male");
     }
 if(event.which == 99) {
       var myAudio = document.getElementById("note-32"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
+    responsiveVoice.speak(singleword, "UK English Male");
     }
 if(event.which == 118) {
       var myAudio = document.getElementById("note-33"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
+    responsiveVoice.speak(singleword, "UK English Male");
     }
 if(event.which == 98) {
       var myAudio = document.getElementById("note-34"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
+    responsiveVoice.speak(singleword, "UK English Male");
     }
 if(event.which == 110) {
       var myAudio = document.getElementById("note-35"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
+    responsiveVoice.speak(singleword, "UK English Male");
     }
 if(event.which == 109) {
       var myAudio = document.getElementById("note-36"); 
     myAudio.play();
-    responsiveVoice.speak(singleword, "UK English Male", {pitch: 2});
+    responsiveVoice.speak(singleword, "UK English Male");
     }
 
 
 
  });
 
+
+
+
 $(document).ready(function(){
+
     responsiveVoice.cancel();
 
     $('html, body').scrollLeft(0);
@@ -467,6 +475,8 @@ $(document).ready(function(){
     setTimeout(function(){
         $('html, body').scrollLeft(0);
     }, 0);
+
+    
  });
 
 
